@@ -28,7 +28,7 @@ boss install github.com/viniciussanchez/RESTRequest4Delphi
 
 ## 🔰 Engines
 
-By default, the components **TRESTRequest**, **TRESTResponse** and **TRESTClient** are used to make requests when your using Delphi. If you use Lazarus, the [**fphttpclient**](https://wiki.lazarus.freepascal.org/fphttpclient) components are used by default. The RESTRequest4Delphi has support to five engines to make requests: RESTClient, [**Synapse**](http://www.ararat.cz/synapse/doku.php/download), [**ICS Overbyte**](https://wiki.overbyte.eu/wiki/index.php/ICS_Download), Indy and NetHTTP. You can change the engine to make requests. To do this, simply define in: *Project > Options > Delphi Compiler > Conditional defines* the compiler directive `RR4D_INDY`, `RR4D_SYNAPSE`, `RR4D_ICS` or `RR4D_NETHTTP`
+By default, the components **TRESTRequest**, **TRESTResponse** and **TRESTClient** are used to make requests when your using Delphi. If you use Lazarus, the [**fphttpclient**](https://wiki.lazarus.freepascal.org/fphttpclient) components are used by default. The RESTRequest4Delphi has support for five engines to make requests: RESTClient, [**Synapse**](http://www.ararat.cz/synapse/doku.php/download), [**ICS Overbyte**](https://wiki.overbyte.eu/wiki/index.php/ICS_Download), Indy and NetHTTP. You can change the engine to make requests. To do this, simply define in: *Project > Options > Delphi Compiler > Conditional defines* the compiler directive `RR4D_INDY`, `RR4D_SYNAPSE`, `RR4D_ICS` or `RR4D_NETHTTP`
 
 **Note**: for Lazarus, the **fphttpclient** engine is the default. But you can switch to **Indy** setting `RR4D_INDY` directive or to [**Synapse**](http://www.ararat.cz/synapse/doku.php/download) setting `RR4D_SYNAPSE` directive.
 
